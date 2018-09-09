@@ -1,0 +1,163 @@
+/* NOTEBOOK */
+@media only screen and (max-width: 1440px) {
+	/* CONTAINER */
+		.container {
+		    width: auto!important;
+		}
+}
+
+/* TABLET */
+@media only screen and (max-width: 768px) {	
+	/* SINGLE DO PRODUTO */
+		.related {
+		    padding-top: 15px;
+		    padding-bottom: 115px;
+		}
+}
+
+@media only screen and (max-width: 767px) {	
+	/* MENU */
+		.navbar-default .navbar-toggle:hover {
+		    background-color: transparent;
+		}
+
+		.header .navbar-default {
+			background-color: rgba(29,27,28, 0.8);
+		}
+
+		.header .separate {
+		    top: 15px;
+		}
+
+		.nav-login {
+			float: right!important;
+			display: inline-flex!important;
+		}	
+
+		.header .navbar .navbar-nav {
+		    text-align: left;
+		    float: left;
+		}
+
+		.navbar-brand {
+			width: 70%;
+		}
+
+	/* MENU INTERNO */
+		.header-shop .navbar-brand>img {
+		    margin: 0 0;
+		}	
+
+		.body-cart-internal {
+		 	display: none;
+		}
+
+		.item-cart {
+		    display: none;
+		}
+
+		.search-form-interna .btn-search {
+   		 	display: none;
+   		}
+
+   		.header-shop .navbar .navbar-nav {
+		    float: left;
+		    text-align: left;
+		}
+
+		.header-login {
+		 	padding-right: 0px;
+		}
+
+		.header-interna {
+		    padding: 10px 20px 10px 20px;
+		}
+
+		.header-shop .navbar .navbar-collapse {
+		    position: relative;
+		}
+
+		.item-cart-responsive {
+			display: block;
+			float: right;
+			color: #000;
+			font-weight: bold;
+			position: absolute;
+			right: 15px;
+			top: 18px;
+		}
+
+		.search-form-responsive {
+			display: block;
+		    position: absolute;
+		    right: 0;
+		    bottom: 10px;
+		    margin-top: -10px;
+		}
+
+		.search-form-responsive .btn-search {
+			border-radius: 35px;
+		    width: 35px;
+		    height: 35px;
+		    outline: none;
+		    border: 0;
+		    background-color: #303030;
+		}
+
+		.header-shop .navbar-toggle {
+    		margin-right: 0px!important;
+		}
+
+		.navbar-default .navbar-collapse {
+		    padding-top: 0;
+		    border: 0;
+		    border-color: transparent;
+		}
+		
+	/* BANNER */
+		.banner-item {
+		   	width: 100%;
+		   	padding-left: 30px;
+		}	
+
+	/* FOOTER */
+		footer.footer .logotipo-rodape {
+		    margin: 0px 0px 10px 0px;
+		}
+}
+
+
+/* SMARTPHONE */
+@media only screen and (max-width: 414px) {
+	/* MENU INTERNO */
+		.header-shop .navbar-brand>img {
+		    margin: 0 0;
+		    width: 70%;
+		    margin-top: -5px;
+		}	
+
+	/* VD */
+		section.autor-section .txt-autor {
+			margin-top: 92px;
+		}
+
+	/* NEWSLETTER */
+		.newletter-section label {
+		    width: 100%;
+		}
+
+		.newletter-section button {
+		    width: 30%;
+		}
+
+	/* SINGLE DO PRODUTO */
+		.related {
+		    padding-top: 15px;
+		    padding-bottom: 50px;
+		}
+}	
+
+
+
+
+
